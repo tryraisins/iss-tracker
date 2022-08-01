@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Button from "./Button";
+import Button from "../Components/Button";
 
 const Content = () => {
   const [latitude, setLatitude] = useState(0);
